@@ -1,8 +1,23 @@
-.pinkbox{
-  background: #ECA8A8;
+.background{
+  background-image: url('assets/green.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-position: center;
   text-align: center;
-  padding-top: 240px;
-  padding-bottom: 240px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
+
+.title{
+  font-family: verdana;
+  font-size: 70; 
+}
+
+.tagline{
+  font-family: verdana;
+  font-size: 52;
+}
+
+/* canvas {
+  z-index: 1000;
+} */
