@@ -1,3 +1,8 @@
 .pinkbox{
-  background-color: ECA8A8;
+  background: #ECA8A8;
+  text-align: center;
+  padding-top: 240px;
+  padding-bottom: 240px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
