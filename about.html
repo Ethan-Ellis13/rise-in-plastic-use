@@ -22,45 +22,51 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- End -->
 
+  	<!-- fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+	<!--end-->
+
 </head>
 
 <body>
 
 	<!-- Navbar -->
-	<div class="topnav">
+	<div class="topnav " id="navbar">
 		<a href="index.html">Home</a>
 		<a class="back" href="about.html">About</a>
 		<a href="nextSteps.html">Next Steps</a>
+		<!-- Search Bar -->
 		<div class="search-container">
 			<form action="javascript:void(0);">
-				<!-- Search Bar -->
-				<input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
+				<input  type="text" class="search" placeholder="Search.." name="search">
+        <button type="submit"><i class="searchbtn fa fa-search"></i></button>
       </form>
     </div>
   </div>
 
   <br><br>
 
-  <h1 class="text-center"><b>Our Mission</b></h1>
+  <h1 class="text-center title"><b>Our Mission</b></h1>
   
   <br>
-  <p class="text-center missionborder mission"><b>It's the little things.</b> Tons of plastic trash gets thrown away each year, polluting our air and waters. Companies burn toxic chemicals when they produce plastic, suffocating our atmosphere. By reducing the amount of plastic we use in our everyday lives, we can save our planet.</p>
+  <p class="text-center missionborder mission "><b>It's the little things.</b> Tons of plastic trash gets thrown away each year, polluting our air and waters. Companies burn toxic chemicals when they produce plastic, suffocating our atmosphere. By reducing the amount of plastic we use in our everyday lives, we can save our planet.</p>
 
   <br><br>
 
-  <h1 class="text-center graytitle"><b>Meet the Team</b></h1>
+  <h1 class="text-center graytitle title"><b>Meet the Team</b></h1>
   <br>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm">
         <div class="container">
           <div class="row">
-            <img height="100%" src="assets/portrait.jpeg" class="rounded-circle"></a>
+            <img height="100%" src="assets/Ethan.jpg" class="rounded-circle"></a>
           </div>
-          <div class="row">
+          <div class="row paddingtop">
             <br>
-            <p class="text-center">About me</p>
+            <p class="text-center aboutme">Ethan Ellis</p>
+            <p class="text-center paragraph">Hello. I love web design/development and hanging out with my family in my free time. I enjoyed coding the JavaScript portions of the website!</p>
           </div>
         </div>
       </div>
@@ -71,9 +77,10 @@
             <img height="50%"  src="assets/Tyler.jpg" class="rounded-circle"></a>
           </div>
 
-          <div class="row">
+          <div class="row paddingtop">
             <br>
-            <p class="text-center">About me</p>
+            <p class="text-center aboutme">Tyler Choi</p>
+             <p class="text-center paragraph">Hello! My Name is Tyler. I love to draw, skateboard, and learn! I'm currently going to Mission High as a Freshman.</p>
           </div>
         </div>
       </div>
@@ -83,15 +90,37 @@
           <div class="row">
             <img height="20%" src="assets/caitlyn.jpg" class="rounded-circle"></a>
           </div>
-          <div class="row">
+          <div class="row paddingtop">
             <br>
-            <p class="text-center">About me</p>
+            <p class="text-center aboutme">Caitlyn Wong</p>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Footer -->
+  <div class="footer">
+  <div class="footer-content">
+    <div class="row">
+      <div class="col">
+        <div class="copyright"><h5>© 2021 Copyright: Project Plastic Zero</h5></div>
+      </div>
+      <div class="col">
+        <div class="followus">
+          <h5>Follow Us</h5>
+        </div>
+      </div>
 
+      <div class="col">
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook" style="color:#c9c8c5; font-size: 1.2rem;"></i></a>
+          <a href="#"><i class="fab fa-twitter" style="color:#c9c8c5; font-size: 1.2rem;"></i></a>
+          <a href="#"><i class="fab fa-linkedin" style="color:#c9c8c5; font-size: 1.2rem;"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script type="application/javascript"" src="script.js"></script>
   </div>
 </body>
 </html>
