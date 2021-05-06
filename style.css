@@ -14,18 +14,25 @@
   padding-bottom: 5%;
   margin-left: 15%;
   margin-right: 15%;
-  font-family: verdana;
+  font-family: 'Playfair Display';
   font-size: 70;
   background-color: #c3d4a5;  
+
+}
+
+.subTitle {
+  font-family: 'Playfair Display';
+  font-size: 25px;
 }
 
 .title{
-  font-family: verdana;
+  font-family: 'Playfair Display';
   font-size: 70; 
 }
 
+
 .tagline{
-  font-family: verdana;
+  font-family: 'Playfair Display';
   font-size: 52;
 }
 
@@ -67,16 +74,29 @@
  align-items: center;
 }
 
-.btn-xl {
-    font-size: 40px;
-    padding: 0px 20px ;
-    width: 80%;
-    height: 60px;    //Specify your width here
-}
+/* .btn-xl {
+  padding: 0px 20px ;
+  width: 80%;
+  height: 80px;
+} */
 
+.nextstepsbtn {
+  padding: 0px 20px ;
+  width: 80%;
+  height: 80px;
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  background-color: #82ae7e;
+  color: white;
+  border: none;
+}
 
 .nextrow{
   height: 350px;
+}
+
+.backbg {
+  background-color: #82ae7e;
 }
 
 .pinkText {
@@ -85,29 +105,34 @@
   padding-right: 10%;
   padding-bottom: 10%;
   padding-top: 10%;
-  font-family: verdana;
-}
-
-.nextstepsbtn {
-  font-family: verdana;
+  font-family: 'Roboto';
 }
 
 .mission {
   margin-left: 10%;
   margin-right: 10%;
   font-size: 52;
-  font-family: verdana;
+  font-family: 'Roboto';
   padding: 3%;
 }
 
 .missionborder {
   border-style: groove;
-  border-color: #7695C2;
+  border-color: #ECA8A8;
   border-width: 8px;
 }
 
 .graytitle {
   color: #686868;
+}
+
+.aboutme {
+  font-family: 'Playfair Display';
+  font-size: 52;
+}
+
+.paddingtop {
+  padding-top: 10%;
 }
 /* .steps{
   align: center;
@@ -121,23 +146,23 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #e9e9e9;
-  
+  background-color: #9f8767;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Playfair Display';
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #82ae7e;
+  color: white;
 }
 
 .topnav a.active {
@@ -161,7 +186,7 @@
   padding: 6px 10px;
   margin-top: 8px;
   margin-right: 16px;
-  background: #ddd;
+  background: #82ae7e;
   font-size: 17px;
   border: none;
   cursor: pointer;
@@ -188,6 +213,13 @@
   }
 }
 
+.searchbtn {
+  color:white;
+}
+
+.search {
+  font-family: Roboto;
+}
 /* Sticky Navbar */
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -205,14 +237,48 @@
 
 /* Footer */
 .footer {
-  background: #303036;
-  color: #d3d3d3;
+  background: #9f8767;
+  color: white;
   height: 100px;
   position: relative;
+  
 }
 
 .back {
-  background-color: #c3d4a5;
+  background-color: #82ae7e;
 }
 
+.footer-about {
+  color: white; 
+}
 
+.footer-bottom {
+  color: white;
+  position: relative;
+}
+
+.dialog {
+  font-family: 'Roboto';
+}
+
+.socials {
+  position:absolute;
+  bottom:30%;
+  right:5%;
+}
+
+.followus {
+  position:absolute;
+  bottom:23%;
+  right:13%;
+}
+
+.copyright {
+  position: absolute;
+  bottom:27%;
+  left:3%;
+}
+
+.hpText {
+  font-family: 'Roboto';
+}
