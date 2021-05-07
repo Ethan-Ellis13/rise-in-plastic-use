@@ -134,6 +134,15 @@
 .paddingtop {
   padding-top: 10%;
 }
+
+.aboutbody {
+  margin-bottom: 10%;
+}
+
+.paddingtoptyler {
+  padding-top: 30%;
+}
+
 /* .steps{
   align: center;
 } */
@@ -241,7 +250,8 @@
   color: white;
   height: 100px;
   position: relative;
-  
+  margin-bottom: none;
+  padding-bottom: none;
 }
 
 .back {
@@ -281,4 +291,12 @@
 
 .hpText {
   font-family: 'Roboto';
+}
+
+.nextbody{
+  margin-bottom: 15%;
+}
+
+.paragraph {
+  font-family: Roboto;
 }
