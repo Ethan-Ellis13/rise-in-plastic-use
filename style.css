@@ -91,6 +91,14 @@
   border: none;
 }
 
+.nextstepsbtn:hover {background-color: #3e8e41}
+
+.nextstepsbtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(10px);
+}
+
 .nextrow{
   height: 350px;
 }
@@ -170,7 +178,7 @@
 }
 
 .topnav a:hover {
-  background-color: #82ae7e;
+  background-color: #454647;
   color: white;
 }
 
@@ -299,4 +307,18 @@
 
 .paragraph {
   font-family: Roboto;
+}
+
+/* Custom Scrollbar */
+body::-webkit-scrollbar {
+ width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
